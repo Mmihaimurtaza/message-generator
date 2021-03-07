@@ -1,0 +1,61 @@
+body {
+  box-sizing: border-box;
+  background-image: url("../background.jpg");
+}
+
+.container {
+  padding-top: 100px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+#h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: aqua;
+  text-align: center;
+  font-size: 35px;
+}
+
+#generateMessage {
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: brown;
+  font-size: 30px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(88, 13, 72);
+  color: white;
+  font-weight: bold;
+}
+
+#generateMessage:hover {
+  filter: opacity(0.8);
+}
+.messageBox {
+  margin-top: 170px;
+  height: 200px;
+
+  position: relative;
+}
+
+#message {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(0, 255, 115);
+}
